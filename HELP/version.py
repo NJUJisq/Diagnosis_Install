@@ -21,17 +21,6 @@ class _Comparable(object):
 class VersionError(Exception):
     pass
 
-
-# _re = re.compile('^'
-#                  '(\d+)\.(\d+)\.(\d+)'  # minor, major, patch
-#                  '(-[0-9A-Za-z-\.]+)?'  # pre-release
-#                  '(\+[0-9A-Za-z-\.]+)?'  # build
-#                  '$')
-# _re = re.compile(r'^v?(\d+!)?(\d+(\.\d+)*)((a|b|c|rc)(\d+))?'
-#                     r'(\.(post)(\d+))?(\.(dev)(\d+))?'
-#                     r'(\+([a-zA-Z\d]+(\.[a-zA-Z\d]+)?))?$')
-
-# _re = re.compile(r'^([1-9][0-9]*!)?(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))*((a|b|rc)(0|[1-9][0-9]*))?(\.post(0|[1-9][0-9]*))?(\.dev(0|[1-9][0-9]*))?$')  
 VERSION_PATTERN = r"""
     v?
     (?:

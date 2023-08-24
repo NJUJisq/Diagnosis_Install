@@ -81,10 +81,8 @@ def run_one_detection(client,Sym,installed=None):
                 
                 dep_cons = possible_deps[dep]
                 if len(remove_cons) > 0:
-                    
                     for r_con in remove_cons:
                         r_con= r_con.strip(')').strip(',')  
-                        print('remove:  ',r_con)
                         dep_cons = dep_cons.replace(r_con,'',1)
                     
                 dep_cons = dep_cons.strip().strip(',')  
@@ -125,7 +123,6 @@ def run_one_detection(client,Sym,installed=None):
                         Final_deps[dep].append(pv_info)  
 
                 if len(Final_deps[dep]) > 0 :
-                    # 按照order的顺序找，找到一个
                     tmp_dep = Final_deps[dep][0]  
                     stable_dep = None 
                     if is_stable(tmp_dep.split('#')[1]):
@@ -151,8 +148,7 @@ def run_one_detection(client,Sym,installed=None):
 
                 if dep in installed:
                     
-                    if installed[dep] in Final_deps[dep]:  #说明合法
-                        # 难道永远合法吗
+                    if installed[dep] in Final_deps[dep]:  
                         pass
                         
                     else:

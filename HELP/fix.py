@@ -5,7 +5,7 @@ from create_csv_local import get_package_deps
 from utils.sort_version import cmp_version
 from functools import cmp_to_key
 import time,json
-from detect_json import run_one_detection
+from detect import run_one_detection
 
 
 def build_order_dict(pkg_dict):
@@ -158,7 +158,7 @@ def solving_constraints(pkg_dict, constrain_version_dict, need_install):
     solver = Optimize()
     int_dict,order_dict = build_order_dict(pkg_dict)
     solver = add_dependency_constrains(solver, pkg_dict, order_dict, int_dict,need_install)
-    # solver = add_int_constrains(solver, pkg_dict, int_dict)
+    solver = add_int_constrains(solver, pkg_dict, int_dict)
     solver = add_version_constrains(solver, constrain_version_dict, order_dict, int_dict) 
     # solver = add_optimize_targets(solver, int_dict,constrain_version_dict)
     for pkg in int_dict:
@@ -178,20 +178,16 @@ def solving_constraints(pkg_dict, constrain_version_dict, need_install):
 import copy
 def solving_install_by_z3(pkgver_dict,need_install):
     c_dict = copy.deepcopy(pkgver_dict) 
-    
     p_dict = get_package_deps(pkgver_dict)   
-    
-    
     res = solving_constraints(p_dict, c_dict, need_install)
     if res is None or "python" not in res:
-        print('failed to find solution in this python version')
         return None
     
     
     return res
 
 
-def run_one(library,Sym,to_file):
+def run_one(library,Sym,to_file=None):
     
     need_fix = True
     st = time.time()
@@ -216,13 +212,15 @@ def run_one(library,Sym,to_file):
         
     if need_fix == False:
         et = time.time()
-        run_time = et-st
-        print('time is',run_time)
+        detect_time = et-st
+        print('time is',detect_time)
         return
     
+    error_nodes = list(error_nodes)
+
     need_install = {}
     need_install[library[0]] = None
-    for dep_order in reversed(list(error_nodes)):  
+    for dep_order in reversed(error_nodes):  
         need_install[dep_order] = None
 
     
@@ -241,7 +239,7 @@ def run_one(library,Sym,to_file):
         fix_record['error_fix'] = []
         fix_record['full_install'] = []
         fix_record['exeute_time'] = run_time
-        for dep_order in reversed(list(error_nodes)):  
+        for dep_order in reversed(error_nodes):  
             need_install[dep_order] = None
         for item in py_pkgvers:
             fix_record['full_install'].append(item+'=='+py_pkgvers[item])
@@ -256,7 +254,7 @@ def run_one(library,Sym,to_file):
             json.dump(fix_record,f,indent=4)
     else:
         print('HELP fails to generate a solution for this installation task')
-    return need_install,None
+    # return need_install,detect_time
 
 
 def norm(s):
@@ -278,6 +276,5 @@ def main():
 
         
 if __name__ == '__main__':
-    # test
     main()
 

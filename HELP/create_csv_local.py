@@ -150,7 +150,7 @@ def remove_unstable(vers):
         if stable == 0:
             continue  
         new_vers.add(str(ver_))  
-    return new_vers
+    return list(new_vers)
 
 
 
@@ -271,7 +271,7 @@ def get_package_deps(pkgvers):
             else:
                 dep_all_version = get_pkgver_by_pkg(dep_pkgver)
             
-                temp_vers = conflictNode(dep_all_version,dep_cons).solved_versions  
+                temp_vers = conflictNode(remove_unstable(dep_all_version),dep_cons).solved_versions  
             
                 if len(temp_vers) == len(dep_all_version):
                     no_cons_flag = True
@@ -293,21 +293,20 @@ def get_package_deps(pkgvers):
                 
                 
 
-                compatible_versions = sorted(compatible_versions,key=functools.cmp_to_key(cmp_version_reverse))  #从新到旧
-                # 只选择前20个可行的版本
+                compatible_versions = sorted(compatible_versions,key=functools.cmp_to_key(cmp_version_reverse))  
                 if len(compatible_versions) <= 20:  
                     pass
                 else:
                     compatible_versions = compatible_versions[0:20]  
 
-                # 如果大于20个版本，则移除不稳定版本
+                # if the number of versions is more than 20, HELP removes the unstable versions.
                 # if len(compatible_versions) > 20: 
-                #     compatible_versions = list(remove_unstable(compatible_versions))  #不是remove了吗
+                #     compatible_versions = list(remove_unstable(compatible_versions)) 
 
                 cache_solves[dep_pkgver + dep_cons+sym] = compatible_versions               
           
             # if no_cons_flag:
-            #     pkg_dict[pkg][ver].append(dep_pkgver+'#True') #就是对版本没有要求,怎么占位呢
+            #     pkg_dict[pkg][ver].append(dep_pkgver+'#True') 
 
             for temp_v in compatible_versions:
                 pkg_dict[pkg][ver].append(dep_pkgver+'#'+temp_v) 
