@@ -1,0 +1,30 @@
+{
+    "pro#ver": "swaglyrics#1.2.2",
+    "Sym": "3.7.2",
+    "error_fix": [],
+    "full_install": [
+        "typing_extensions==4.7.1",
+        "zipp==3.15.0",
+        "markupsafe==2.1.3",
+        "six==1.16.0",
+        "importlib_metadata==6.7.0",
+        "soupsieve==1.9.6",
+        "chardet==4.0.0",
+        "certifi==2023.5.7",
+        "urllib3==2.0.3",
+        "idna==3.4",
+        "charset_normalizer==3.2.0",
+        "click==8.1.5",
+        "itsdangerous==2.1.2",
+        "jinja2==3.1.2",
+        "werkzeug==2.2.3",
+        "flask_cors==3.0.8",
+        "colorama==0.4.3",
+        "beautifulsoup4==4.9.1",
+        "unidecode==1.1.1",
+        "requests==2.31.0",
+        "flask==1.1.2",
+        "swspotify==1.2.1",
+        "swaglyrics==1.2.2"
+    ]
+}

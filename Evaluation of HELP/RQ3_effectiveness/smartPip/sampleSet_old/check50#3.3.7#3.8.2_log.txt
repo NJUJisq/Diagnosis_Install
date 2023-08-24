@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/check50#3.3.7#3.8.2.txt
+solve time:0.00366973876953125

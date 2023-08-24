@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/openmetadata-sqlalchemy-bigquery#1.2.0#3.6.5.txt
+solve time:0.006107330322265625

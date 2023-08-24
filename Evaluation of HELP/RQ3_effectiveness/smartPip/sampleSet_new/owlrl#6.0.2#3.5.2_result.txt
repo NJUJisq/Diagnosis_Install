@@ -1,0 +1,4 @@
+pyparsing==2.0.1
+setuptools==29.0.0
+rdflib==6.0.2
+owlrl==6.0.2

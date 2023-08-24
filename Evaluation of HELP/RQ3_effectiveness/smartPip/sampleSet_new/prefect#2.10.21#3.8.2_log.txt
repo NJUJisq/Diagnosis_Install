@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/prefect#2.10.21.txt
+solve time:0.002933502197265625

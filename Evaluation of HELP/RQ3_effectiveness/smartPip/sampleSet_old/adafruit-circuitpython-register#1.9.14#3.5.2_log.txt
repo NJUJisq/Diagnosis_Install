@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/adafruit-circuitpython-register#1.9.14#3.5.2.txt
+solve time:0.34539031982421875

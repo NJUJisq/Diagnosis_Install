@@ -1,0 +1,6 @@
+odoo12-addon-project-stage-closed==12.0.1.0.0.99.dev6
+odoo12-addon-web-ir-actions-act-view-reload==12.0.1.0.0.99.dev11
+odoo12-addon-web-ir-actions-act-multi==12.0.1.0.1
+odoo12-addon-hr-timesheet-task-stage==12.0.1.1.0.99.dev10
+odoo12-addon-hr-timesheet-task-domain==12.0.1.0.0.99.dev14
+odoo12-addon-project-timesheet-time-control==12.0.2.1.1

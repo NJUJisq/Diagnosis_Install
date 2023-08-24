@@ -1,0 +1,41 @@
+{
+    "pro#ver": "zappa#0.57.0",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "boto3==1.28.3",
+        "requests==2.31.0",
+        "botocore==1.31.3",
+        "urllib3==1.26.16"
+    ],
+    "full_install": [
+        "zappa==0.57.0",
+        "argcomplete==3.1.1",
+        "boto3==1.28.3",
+        "durationpy==0.5",
+        "hjson==3.1.0",
+        "jmespath==1.0.1",
+        "kappa==0.6.0",
+        "pip==23.2",
+        "placebo==0.9.0",
+        "python_dateutil==2.8.2",
+        "python_slugify==8.0.1",
+        "pyyaml==6.0",
+        "requests==2.31.0",
+        "toml==0.10.2",
+        "tqdm==4.65.0",
+        "troposphere==4.3.2",
+        "werkzeug==2.3.6",
+        "wheel==0.40.0",
+        "botocore==1.31.3",
+        "s3transfer==0.6.1",
+        "six==1.16.0",
+        "text_unidecode==1.3",
+        "charset_normalizer==3.2.0",
+        "idna==3.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "cfn_flip==1.3.0",
+        "markupsafe==2.1.3",
+        "click==8.1.5"
+    ]
+}

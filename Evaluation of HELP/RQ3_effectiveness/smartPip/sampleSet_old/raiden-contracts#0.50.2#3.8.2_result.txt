@@ -1,0 +1,1 @@
+raiden-contracts==0.40.0

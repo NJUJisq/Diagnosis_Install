@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/spade#3.3.0.txt
+solve time:0.002857208251953125

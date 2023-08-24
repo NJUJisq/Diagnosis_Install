@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/odoo11-addon-contract#11.0.2.1.0#3.7.2.txt
+solve time:0.22643208503723145

@@ -1,0 +1,19 @@
+{
+    "pro#ver": "azure-applicationinsights#0.1.1",
+    "Sym": "3.5.2",
+    "error_fix": [
+        "msrest==0.6.21"
+    ],
+    "full_install": [
+        "azure-applicationinsights==0.1.1",
+        "msrest==0.6.21",
+        "azure-common==1.1.19",
+        "certifi==2020.12.5",
+        "isodate==0.6.0",
+        "requests-oauthlib==0.6.0",
+        "requests==2.22.0",
+        "idna==2.5",
+        "urllib3==1.25.2",
+        "chardet==3.0.2"
+    ]
+}

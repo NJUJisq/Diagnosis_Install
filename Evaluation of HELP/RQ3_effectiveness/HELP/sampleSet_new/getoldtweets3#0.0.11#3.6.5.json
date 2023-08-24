@@ -1,0 +1,14 @@
+{
+    "pro#ver": "getoldtweets3#0.0.11",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "pyquery==1.4.3",
+        "cssselect==1.1.0"
+    ],
+    "full_install": [
+        "getoldtweets3==0.0.11",
+        "lxml==4.9.3",
+        "pyquery==1.4.3",
+        "cssselect==1.1.0"
+    ]
+}

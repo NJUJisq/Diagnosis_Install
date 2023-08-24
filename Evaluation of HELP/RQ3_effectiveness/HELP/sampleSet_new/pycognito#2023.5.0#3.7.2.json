@@ -1,0 +1,29 @@
+{
+    "pro#ver": "pycognito#2023.5.0",
+    "Sym": "3.7.2",
+    "error_fix": [
+        "boto3==1.28.3",
+        "requests==2.31.0",
+        "botocore==1.31.3",
+        "urllib3==1.26.16"
+    ],
+    "full_install": [
+        "pycognito==2023.5.0",
+        "boto3==1.28.3",
+        "envs==1.4",
+        "python_jose==3.3.0",
+        "requests==2.31.0",
+        "botocore==1.31.3",
+        "jmespath==1.0.1",
+        "s3transfer==0.6.1",
+        "ecdsa==0.18.0",
+        "rsa==4.9",
+        "pyasn1==0.5.0",
+        "six==1.16.0",
+        "charset_normalizer==3.2.0",
+        "idna==3.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "python_dateutil==2.8.2"
+    ]
+}

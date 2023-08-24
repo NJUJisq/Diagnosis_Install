@@ -1,0 +1,5 @@
+127.0.0.1:8888 server is started
+list index out of range
+install.py has been successfully output
+req.txt : experiment/getoldtweets3#0.0.11.txt
+solve time:0.0035958290100097656

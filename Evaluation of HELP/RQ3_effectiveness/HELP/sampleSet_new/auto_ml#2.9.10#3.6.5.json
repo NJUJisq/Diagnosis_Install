@@ -1,0 +1,26 @@
+{
+    "pro#ver": "auto_ml#2.9.10",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "dill==0.2.9",
+        "pathos==0.2.6"
+    ],
+    "full_install": [
+        "auto_ml==2.9.10",
+        "numpy==1.19.5",
+        "dill==0.2.9",
+        "h5py==2.10.0",
+        "lightgbm==2.0.12",
+        "pandas==0.25.3",
+        "pathos==0.2.6",
+        "python_dateutil==2.8.2",
+        "scikit_learn==0.24.2",
+        "scipy==1.5.4",
+        "sklearn_deap2==0.2.2",
+        "tabulate==0.8.10",
+        "pytz==2023.3",
+        "six==1.16.0",
+        "joblib==1.1.1",
+        "threadpoolctl==3.1.0"
+    ]
+}

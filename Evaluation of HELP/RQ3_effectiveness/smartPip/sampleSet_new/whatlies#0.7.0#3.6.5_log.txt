@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/whatlies#0.7.0.txt
+solve time:0.002995014190673828

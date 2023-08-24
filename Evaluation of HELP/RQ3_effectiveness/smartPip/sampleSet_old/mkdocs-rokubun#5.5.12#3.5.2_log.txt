@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/mkdocs-rokubun#5.5.12#3.5.2.txt
+solve time:0.12153172492980957

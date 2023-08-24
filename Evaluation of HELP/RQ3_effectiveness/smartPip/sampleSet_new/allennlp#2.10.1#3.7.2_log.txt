@@ -1,0 +1,6 @@
+/home/cyl/.conda/envs/test7/bin/smartPip:15: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/allennlp#2.10.1.txt
+solve time:0.003187894821166992

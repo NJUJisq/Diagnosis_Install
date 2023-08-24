@@ -1,0 +1,10 @@
+six==1.11.0
+future==0.14.2
+cattrs==1.8.0
+appdirs==1.4.4
+url-normalize==1.4.2
+urllib3==1.25.5
+attrs==21.2.0
+requests==2.22.0
+requests-cache==0.7.3dev0
+octohatrack==1.1.0

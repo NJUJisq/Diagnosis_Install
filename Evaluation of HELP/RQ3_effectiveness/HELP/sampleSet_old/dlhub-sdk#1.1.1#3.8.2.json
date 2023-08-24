@@ -1,0 +1,35 @@
+{
+    "pro#ver": "dlhub-sdk#1.1.1",
+    "Sym": "3.8.2",
+    "error_fix": [
+        "mdf-toolbox==0.5.4",
+        "jsonschema==4.11.0"
+    ],
+    "full_install": [
+        "pyparsing==2.3.1",
+        "typing-extensions==3.10.0.0",
+        "tblib==1.7.0",
+        "funcx-common==0.0.15",
+        "packaging==21.1",
+        "dill==0.3.5.1",
+        "websockets==10.3",
+        "pyrsistent==0.15.6",
+        "attrs==19.2.0",
+        "globus-nexus-client==0.4.0",
+        "fair-research-login==0.2.0",
+        "chardet==3.0.2",
+        "certifi==2020.12.5",
+        "urllib3==1.25.2",
+        "idna==2.5",
+        "cryptography==37.0.0",
+        "pyjwt==2.0.0",
+        "numpy==1.23.0",
+        "pydantic==1.9.0",
+        "funcx==1.0.0",
+        "jsonschema==4.11.0",
+        "mdf-toolbox==0.5.4",
+        "requests==2.24.0",
+        "globus-sdk==3.7.0",
+        "dlhub-sdk==1.1.1"
+    ]
+}

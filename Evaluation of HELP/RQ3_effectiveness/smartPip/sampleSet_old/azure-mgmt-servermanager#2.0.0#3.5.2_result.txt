@@ -1,0 +1,12 @@
+oauthlib==0.6.2
+requests-oauthlib==0.5.0
+requests==2.14.2
+certifi==2017.4.17
+msrest==0.4.28
+adal==0.5.0
+keyring==5.6
+azure-nspkg==2.0.0
+azure-common==1.1.19
+msrestazure==0.4.27
+azure-mgmt-nspkg==2.0.0
+azure-mgmt-servermanager==2.0.0

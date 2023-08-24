@@ -1,0 +1,17 @@
+{
+    "pro#ver": "performer_pytorch#1.1.4",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "einops==0.4.1",
+        "local_attention==1.4.4"
+    ],
+    "full_install": [
+        "performer_pytorch==1.1.4",
+        "einops==0.4.1",
+        "local_attention==1.4.4",
+        "torch==1.10.2",
+        "axial_positional_embedding==0.2.1",
+        "typing_extensions==4.1.1",
+        "dataclasses==0.8"
+    ]
+}

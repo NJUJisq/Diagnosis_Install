@@ -1,0 +1,31 @@
+{
+    "pro#ver": "face_alignment#1.4.0",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54"
+    ],
+    "full_install": [
+        "face_alignment==1.4.0",
+        "torch==1.10.2",
+        "numpy==1.19.5",
+        "scipy==1.5.4",
+        "scikit_image==0.17.2",
+        "opencv_python==4.5.2.54",
+        "tqdm==4.64.1",
+        "numba==0.53.1",
+        "typing_extensions==4.1.1",
+        "dataclasses==0.8",
+        "matplotlib==3.3.4",
+        "networkx==2.5.1",
+        "pillow==8.4.0",
+        "imageio==2.15.0",
+        "tifffile==2020.9.3",
+        "pywavelets==1.1.1",
+        "importlib_resources==5.4.0",
+        "llvmlite==0.36.0",
+        "setuptools==59.6.0",
+        "decorator==4.4.2",
+        "zipp==3.6.0"
+    ]
+}

@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/scann#1.2.9.txt
+solve time:0.0031211376190185547

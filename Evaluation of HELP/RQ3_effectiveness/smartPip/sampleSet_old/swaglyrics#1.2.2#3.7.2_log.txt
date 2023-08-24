@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/swaglyrics#1.2.2#3.7.2.txt
+solve time:0.056870222091674805

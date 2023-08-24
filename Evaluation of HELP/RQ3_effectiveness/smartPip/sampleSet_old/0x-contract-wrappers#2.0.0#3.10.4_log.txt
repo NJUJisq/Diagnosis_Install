@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/0x-contract-wrappers#2.0.0#3.10.4.txt
+solve time:0.10999584197998047

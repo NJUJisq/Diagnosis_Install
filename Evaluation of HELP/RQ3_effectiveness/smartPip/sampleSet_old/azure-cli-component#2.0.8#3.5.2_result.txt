@@ -1,0 +1,6 @@
+azure-nspkg==2.0.0
+azure-cli-nspkg==3.0.0
+pip==*
+azure-cli-command-modules-nspkg==2.0.0
+azure-cli-core==*
+azure-cli-component==2.0.8

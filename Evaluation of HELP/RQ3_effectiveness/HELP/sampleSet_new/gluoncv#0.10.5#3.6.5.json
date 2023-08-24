@@ -1,0 +1,33 @@
+{
+    "pro#ver": "gluoncv#0.10.5",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54"
+    ],
+    "full_install": [
+        "gluoncv==0.10.5",
+        "numpy==1.19.5",
+        "tqdm==4.64.1",
+        "requests==2.27.1",
+        "matplotlib==3.3.4",
+        "portalocker==2.7.0",
+        "pillow==8.4.0",
+        "scipy==1.5.4",
+        "yacs==0.1.8",
+        "pandas==1.1.5",
+        "pyyaml==6.0",
+        "autocfg==0.0.8",
+        "opencv_python==4.5.2.54",
+        "importlib_resources==5.4.0",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "idna==3.4",
+        "charset_normalizer==2.0.12",
+        "python_dateutil==2.8.2",
+        "pytz==2023.3",
+        "dataclasses==0.8",
+        "zipp==3.6.0",
+        "six==1.16.0"
+    ]
+}

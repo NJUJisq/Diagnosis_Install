@@ -1,0 +1,18 @@
+{
+    "pro#ver": "jedi_language_server#0.30.2",
+    "Sym": "3.8.2",
+    "error_fix": [
+        "pygls==0.10.3",
+        "pydantic==1.8.2"
+    ],
+    "full_install": [
+        "jedi_language_server==0.30.2",
+        "jedi==0.18.0",
+        "pygls==0.10.3",
+        "pydantic==1.8.2",
+        "docstring_to_markdown==0.12",
+        "parso==0.8.3",
+        "typeguard==2.13.3",
+        "typing_extensions==4.7.1"
+    ]
+}

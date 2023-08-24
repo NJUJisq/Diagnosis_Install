@@ -1,0 +1,14 @@
+{
+    "pro#ver": "blind_watermark#0.4.4",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54"
+    ],
+    "full_install": [
+        "blind_watermark==0.4.4",
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54",
+        "pywavelets==1.1.1"
+    ]
+}

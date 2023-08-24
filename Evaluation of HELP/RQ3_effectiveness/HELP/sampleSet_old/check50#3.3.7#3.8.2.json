@@ -1,0 +1,28 @@
+{
+    "pro#ver": "check50#3.3.7",
+    "Sym": "3.8.2",
+    "error_fix": [
+        "attrs==19.2.0",
+        "lib50==3.0.1"
+    ],
+    "full_install": [
+        "MarkupSafe==2.0.0a1",
+        "chardet==3.0.2",
+        "certifi==2020.12.5",
+        "urllib3==1.25.2",
+        "idna==2.5",
+        "cryptography==37.0.0",
+        "jellyfish==0.7.1",
+        "ptyprocess==0.5",
+        "soupsieve==1.9.6",
+        "jinja2==3.0.0",
+        "termcolor==1.1.0",
+        "requests==2.22.0",
+        "pyyaml==5.2",
+        "lib50==3.0.1",
+        "pexpect==4.6.0",
+        "beautifulsoup4==4.8.0",
+        "attrs==19.2.0",
+        "check50==3.3.7"
+    ]
+}

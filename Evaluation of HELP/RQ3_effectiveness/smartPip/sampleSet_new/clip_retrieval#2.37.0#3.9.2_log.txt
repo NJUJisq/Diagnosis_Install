@@ -1,0 +1,5 @@
+127.0.0.1:8888 server is started
+list index out of range
+install.py has been successfully output
+req.txt : experiment/clip_retrieval#2.37.0.txt
+solve time:0.0032491683959960938

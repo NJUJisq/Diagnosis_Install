@@ -1,0 +1,41 @@
+{
+    "pro#ver": "jsontableschema#0.10.1",
+    "Sym": "3.10.4",
+    "error_fix": [
+        "requests==2.31.0",
+        "tabulator==1.53.5",
+        "urllib3==1.26.16",
+        "boto3==1.28.3",
+        "botocore==1.31.3"
+    ],
+    "full_install": [
+        "jsontableschema==0.10.1",
+        "click==6.7",
+        "future==0.18.3",
+        "isodate==0.6.1",
+        "jsonschema==2.6.0",
+        "python_dateutil==2.8.2",
+        "requests==2.31.0",
+        "rfc3986==0.4.1",
+        "tabulator==1.53.5",
+        "unicodecsv==0.14.1",
+        "six==1.16.0",
+        "charset_normalizer==3.2.0",
+        "idna==3.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "chardet==5.1.0",
+        "boto3==1.28.3",
+        "ijson==3.2.2",
+        "jsonlines==3.1.0",
+        "sqlalchemy==2.0.19",
+        "linear_tsv==1.1.0",
+        "xlrd==2.0.1",
+        "openpyxl==3.1.2",
+        "botocore==1.31.3",
+        "jmespath==1.0.1",
+        "s3transfer==0.6.1",
+        "attrs==23.1.0",
+        "et_xmlfile==1.1.0"
+    ]
+}

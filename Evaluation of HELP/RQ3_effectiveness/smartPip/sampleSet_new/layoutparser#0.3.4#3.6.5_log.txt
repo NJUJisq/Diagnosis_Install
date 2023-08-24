@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/layoutparser#0.3.4.txt
+solve time:0.0029861927032470703

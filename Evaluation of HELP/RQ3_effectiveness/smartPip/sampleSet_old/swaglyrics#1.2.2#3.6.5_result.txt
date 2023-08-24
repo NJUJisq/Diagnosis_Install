@@ -1,0 +1,9 @@
+urllib3==1.21.1
+idna==2.5
+chardet==3.0.2
+certifi==2017.4.17
+soupsieve==1.2.1
+requests==2.24.0
+colorama==0.4.3
+beautifulsoup4==4.9.1
+swaglyrics==1.2.2

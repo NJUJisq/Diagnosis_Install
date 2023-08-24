@@ -1,0 +1,25 @@
+{
+    "pro#ver": "nornir_netmiko#1.0.0",
+    "Sym": "3.8.2",
+    "error_fix": [
+        "netmiko==4.1.2",
+        "textfsm==1.1.2"
+    ],
+    "full_install": [
+        "nornir_netmiko==1.0.0",
+        "netmiko==4.1.2",
+        "textfsm==1.1.2",
+        "ntc_templates==3.5.0",
+        "paramiko==3.2.0",
+        "pyserial==3.5",
+        "pyyaml==6.0",
+        "scp==0.14.5",
+        "setuptools==68.0.0",
+        "tenacity==8.2.2",
+        "bcrypt==4.0.1",
+        "cryptography==41.0.2",
+        "pynacl==1.5.0",
+        "cffi==1.15.1",
+        "pycparser==2.21"
+    ]
+}

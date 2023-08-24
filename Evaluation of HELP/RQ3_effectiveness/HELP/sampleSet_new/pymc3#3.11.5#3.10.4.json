@@ -1,0 +1,36 @@
+{
+    "pro#ver": "pymc3#3.11.5",
+    "Sym": "3.10.4",
+    "error_fix": [
+        "arviz==0.12.1",
+        "scipy==1.7.3"
+    ],
+    "full_install": [
+        "pymc3==3.11.5",
+        "arviz==0.12.1",
+        "cachetools==5.3.1",
+        "deprecat==2.1.1",
+        "dill==0.3.6",
+        "fastprogress==1.0.3",
+        "numpy==1.22.1",
+        "pandas==2.0.3",
+        "patsy==0.5.3",
+        "scipy==1.7.3",
+        "semver==3.0.1",
+        "theano_pymc==1.1.2",
+        "typing_extensions==4.7.1",
+        "setuptools==68.0.0",
+        "matplotlib==3.7.2",
+        "packaging==23.1",
+        "xarray==2023.7.0",
+        "xarray_einstats==0.6.0",
+        "netcdf4==1.6.4",
+        "wrapt==1.15.0",
+        "python_dateutil==2.8.2",
+        "pytz==2023.3",
+        "tzdata==2023.3",
+        "six==1.16.0",
+        "cftime==1.6.2",
+        "certifi==2023.5.7"
+    ]
+}

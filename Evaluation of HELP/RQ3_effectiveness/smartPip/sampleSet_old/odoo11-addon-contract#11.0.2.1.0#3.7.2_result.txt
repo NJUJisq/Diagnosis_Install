@@ -1,0 +1,1 @@
+odoo11-addon-contract==11.0.2.1.0

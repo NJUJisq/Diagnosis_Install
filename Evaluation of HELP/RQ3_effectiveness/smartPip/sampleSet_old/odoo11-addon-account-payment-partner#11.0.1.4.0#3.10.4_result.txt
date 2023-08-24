@@ -1,0 +1,2 @@
+odoo11-addon-account-payment-mode==11.0.1.0.1.99.dev10
+odoo11-addon-account-payment-partner==11.0.1.4.0

@@ -1,0 +1,12 @@
+pyparsing==2.1.4
+decorator==3.4.0
+click==6.5
+ipython==5.0.0
+lxml==0.9.1
+pydot==1.4.1
+future==0.5.1
+networkx==1.11
+matplotlib==3.2.0rc3
+colorama==0.3.0
+asn1crypto==0.24.0
+androguard==3.3.5

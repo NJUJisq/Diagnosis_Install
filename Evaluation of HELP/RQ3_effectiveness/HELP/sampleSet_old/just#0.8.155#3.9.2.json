@@ -1,0 +1,20 @@
+{
+    "pro#ver": "just#0.8.155",
+    "Sym": "3.9.2",
+    "error_fix": [],
+    "full_install": [
+        "chardet==4.0.0",
+        "certifi==2023.5.7",
+        "urllib3==2.0.3",
+        "idna==3.4",
+        "charset_normalizer==3.2.0",
+        "lxml==4.9.3",
+        "ciso8601==2.3.0",
+        "requests_viewer==0.1.0",
+        "requests==2.31.0",
+        "orjson==3.9.2",
+        "glob2==0.7",
+        "pyyaml==6.0",
+        "just==0.8.155"
+    ]
+}

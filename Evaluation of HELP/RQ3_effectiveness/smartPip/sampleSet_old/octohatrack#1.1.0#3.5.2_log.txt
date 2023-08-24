@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/octohatrack#1.1.0#3.5.2.txt
+solve time:0.09890532493591309

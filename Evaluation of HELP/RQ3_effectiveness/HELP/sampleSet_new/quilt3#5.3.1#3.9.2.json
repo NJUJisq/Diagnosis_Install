@@ -1,0 +1,36 @@
+{
+    "pro#ver": "quilt3#5.3.1",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "boto3==1.28.3",
+        "requests==2.31.0",
+        "botocore==1.31.3",
+        "urllib3==1.26.16"
+    ],
+    "full_install": [
+        "quilt3==5.3.1",
+        "platformdirs==3.9.1",
+        "aws_requests_auth==0.4.3",
+        "boto3==1.28.3",
+        "jsonlines==1.2.0",
+        "pyyaml==6.0",
+        "requests==2.31.0",
+        "tenacity==8.2.2",
+        "tqdm==4.65.0",
+        "requests_futures==1.0.0",
+        "jsonschema==4.18.3",
+        "botocore==1.31.3",
+        "jmespath==1.0.1",
+        "s3transfer==0.6.1",
+        "six==1.16.0",
+        "charset_normalizer==3.2.0",
+        "idna==3.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "attrs==23.1.0",
+        "jsonschema_specifications==2023.6.1",
+        "referencing==0.29.0",
+        "rpds_py==0.7.1",
+        "python_dateutil==2.8.2"
+    ]
+}

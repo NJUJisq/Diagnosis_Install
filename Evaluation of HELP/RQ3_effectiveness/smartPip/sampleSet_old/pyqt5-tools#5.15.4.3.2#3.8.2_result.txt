@@ -1,0 +1,4 @@
+python-dotenv==0.19.2
+pyqt5-plugins==5.15.4.2.2
+click==3.0
+pyqt5-tools==5.15.4.3.2

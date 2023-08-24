@@ -1,0 +1,18 @@
+{
+    "pro#ver": "scipion_em#3.1.0",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "tifffile==2021.11.2",
+        "scipy==1.8.1",
+        "numpy==1.24.4"
+    ],
+    "full_install": [
+        "scipion_em==3.1.0",
+        "scipion_pyworkflow==3.1.0",
+        "biopython==1.79",
+        "tifffile==2021.11.2",
+        "emtable==0.0.14",
+        "scipy==1.8.1",
+        "numpy==1.24.4"
+    ]
+}

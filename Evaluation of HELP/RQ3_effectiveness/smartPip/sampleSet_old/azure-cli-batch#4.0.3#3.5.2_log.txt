@@ -1,0 +1,10 @@
+127.0.0.1:8888 server is started
+['1', '1']
+['1', '1']
+['0', '4', '0']
+['0', '4', '4']
+['2', '14']
+['2', '14']
+install.py has been successfully output
+req.txt : experiment/azure-cli-batch#4.0.3#3.5.2.txt
+solve time:0.6562402248382568

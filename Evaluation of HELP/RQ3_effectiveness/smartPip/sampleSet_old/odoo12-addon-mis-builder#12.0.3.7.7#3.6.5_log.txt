@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/odoo12-addon-mis-builder#12.0.3.7.7#3.6.5.txt
+solve time:0.0029897689819335938

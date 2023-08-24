@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/sahi#0.11.14.txt
+solve time:0.002929210662841797

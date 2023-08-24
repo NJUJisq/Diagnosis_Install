@@ -1,0 +1,19 @@
+{
+    "pro#ver": "musco-pytorch#1.0.6",
+    "Sym": "3.10.4",
+    "error_fix": [
+        "scipy==1.8.0",
+        "scikit-tensor-py3==0.2",
+        "numpy==1.23.0"
+    ],
+    "full_install": [
+        "six==1.7.3",
+        "numpy==1.23.0",
+        "tensorly==0.4.5",
+        "flopco-pytorch==0.1.2",
+        "absl-py==0.11.0",
+        "scikit-tensor-py3==0.2",
+        "scipy==1.8.0",
+        "musco-pytorch==1.0.6"
+    ]
+}

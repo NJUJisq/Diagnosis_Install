@@ -1,0 +1,32 @@
+{
+    "pro#ver": "opentelemetry-exporter-otlp#1.14.0",
+    "Sym": "3.7.2",
+    "error_fix": [
+        "opentelemetry-exporter-otlp-proto-grpc==1.14.0",
+        "googleapis-common-protos==1.56.2",
+        "opentelemetry-proto==1.14.0",
+        "protobuf==3.19.4"
+    ],
+    "full_install": [
+        "wrapt==1.13.0",
+        "chardet==3.0.2",
+        "certifi==2020.12.5",
+        "urllib3==1.25.2",
+        "idna==2.5",
+        "typing-extensions==3.10.0.0",
+        "opentelemetry-semantic-conventions==0.33b0",
+        "Deprecated==1.2.6",
+        "setuptools==65.2.0",
+        "six==1.7.3",
+        "protobuf==3.19.4",
+        "requests==2.22.0",
+        "opentelemetry-sdk==1.12.0",
+        "opentelemetry-proto==1.14.0",
+        "opentelemetry-api==1.12.0",
+        "grpcio==1.48.2",
+        "googleapis-common-protos==1.56.2",
+        "opentelemetry-exporter-otlp-proto-http==1.14.0",
+        "opentelemetry-exporter-otlp-proto-grpc==1.14.0",
+        "opentelemetry-exporter-otlp==1.14.0"
+    ]
+}

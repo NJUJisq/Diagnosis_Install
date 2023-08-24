@@ -1,0 +1,15 @@
+six==1.16.0
+MarkupSafe==0.23
+mkdocs-material==5.0.0
+tornado==5.0
+PyYAML==3.10
+Markdown==3.2.1
+lunr==0.5.6
+livereload==2.5.1
+Jinja2==2.10.1
+click==3.3
+pymdown-extensions==7.0
+Pygments==2.4.0
+mkdocs-material-extensions==1.0
+mkdocs==1.1
+mkdocs-rokubun==5.5.12

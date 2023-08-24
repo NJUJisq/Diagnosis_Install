@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/pypot#5.0.2.txt
+solve time:0.0029706954956054688

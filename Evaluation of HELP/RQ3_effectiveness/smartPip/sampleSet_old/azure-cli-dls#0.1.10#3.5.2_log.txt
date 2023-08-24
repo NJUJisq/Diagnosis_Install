@@ -1,0 +1,6 @@
+127.0.0.1:8888 server is started
+['0', '4', '4']
+['0', '4', '0']
+install.py has been successfully output
+req.txt : experiment/azure-cli-dls#0.1.10#3.5.2.txt
+solve time:0.31507444381713867

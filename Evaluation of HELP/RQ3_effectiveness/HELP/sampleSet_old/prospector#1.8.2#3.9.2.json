@@ -1,0 +1,41 @@
+{
+    "pro#ver": "prospector#1.8.2",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "mccabe==0.7.0",
+        "pylint==2.15.5"
+    ],
+    "full_install": [
+        "pyparsing==3.0.0",
+        "lazy-object-proxy==1.4.1",
+        "flake8==5.0.0",
+        "smmap==3.0.1",
+        "poetry-semver==0.1.0",
+        "packaging==21.3",
+        "tomlkit==0.10.1",
+        "platformdirs==2.2.0",
+        "dill==0.2.9",
+        "isort==5.6.3",
+        "astroid==2.12.12",
+        "snowballstemmer==0.1.0",
+        "flake8-polyfill==1.0.2",
+        "gitdb==4.0.1",
+        "toml==0.10.2",
+        "setoptconf-tmp==0.3.1",
+        "requirements-detector==1.0.3",
+        "pylint-plugin-utils==0.7",
+        "pylint-flask==0.6",
+        "pylint-django==2.5.0",
+        "pylint-celery==0.3",
+        "pylint==2.15.5",
+        "pyflakes==2.5.0",
+        "pydocstyle==4.0.0",
+        "pycodestyle==2.9.0",
+        "pep8-naming==0.5.0",
+        "mccabe==0.7.0",
+        "dodgy==0.2.1",
+        "PyYAML==5.2",
+        "GitPython==3.1.27",
+        "prospector==1.8.2"
+    ]
+}

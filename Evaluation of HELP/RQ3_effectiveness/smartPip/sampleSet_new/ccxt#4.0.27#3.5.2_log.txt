@@ -1,0 +1,21 @@
+127.0.0.1:8888 server is started
+Traceback (most recent call last):
+  File "/home/cyl/.conda/envs/test5/bin/smartPip", line 11, in <module>
+    load_entry_point('smartPip==0.0.1', 'console_scripts', 'smartPip')()
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/site-packages/smartPip-0.0.1-py3.5.egg/deptree/smartPip.py", line 534, in main
+    analysis_from_req(req_file)
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/site-packages/smartPip-0.0.1-py3.5.egg/deptree/smartPip.py", line 421, in analysis_from_req
+    handle_dependency(requirements, package_info)
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/site-packages/smartPip-0.0.1-py3.5.egg/deptree/smartPip.py", line 336, in handle_dependency
+    con_add(requirement_normalize_list, s)
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/site-packages/smartPip-0.0.1-py3.5.egg/deptree/solver_local.py", line 158, in con_add
+    version_to_id_list = get_labels_id(part[0])
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/site-packages/smartPip-0.0.1-py3.5.egg/deptree/transform.py", line 154, in get_labels_id
+    package_data = json.loads(receive_data)
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/cyl/.conda/envs/test5/lib/python3.5/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 32769 (char 32768)

@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/intel-scipy#1.7.3#3.10.4.txt
+solve time:0.02634739875793457

@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/autoviz#0.1.730.txt
+solve time:0.0028176307678222656

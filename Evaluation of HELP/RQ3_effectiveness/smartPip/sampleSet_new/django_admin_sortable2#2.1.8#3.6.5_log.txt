@@ -1,0 +1,5 @@
+127.0.0.1:8888 server is started
+list index out of range
+install.py has been successfully output
+req.txt : experiment/django_admin_sortable2#2.1.8.txt
+solve time:0.0034894943237304688

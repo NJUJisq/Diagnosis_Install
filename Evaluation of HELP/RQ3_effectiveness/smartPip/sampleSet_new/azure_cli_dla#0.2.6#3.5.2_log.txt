@@ -1,0 +1,5 @@
+127.0.0.1:8888 server is started
+list index out of range
+install.py has been successfully output
+req.txt : experiment/azure_cli_dla#0.2.6.txt
+solve time:0.19664812088012695

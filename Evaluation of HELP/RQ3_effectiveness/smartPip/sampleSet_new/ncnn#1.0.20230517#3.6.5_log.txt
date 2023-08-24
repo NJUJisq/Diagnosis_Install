@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/ncnn#1.0.20230517.txt
+solve time:0.0028748512268066406

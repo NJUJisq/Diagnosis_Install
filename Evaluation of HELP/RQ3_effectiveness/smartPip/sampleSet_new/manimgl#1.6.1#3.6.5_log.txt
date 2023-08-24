@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/manimgl#1.6.1.txt
+solve time:0.0205538272857666

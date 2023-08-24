@@ -1,0 +1,33 @@
+{
+    "pro#ver": "mkdocs-material#8.5.11",
+    "Sym": "3.9.2",
+    "error_fix": [],
+    "full_install": [
+        "six==1.16.0",
+        "pyparsing==3.1.0",
+        "python_dateutil==2.8.2",
+        "zipp==3.16.2",
+        "certifi==2023.5.7",
+        "urllib3==2.0.3",
+        "idna==3.4",
+        "charset_normalizer==3.2.0",
+        "watchdog==3.0.0",
+        "pyyaml==6.0",
+        "pyyaml_env_tag==0.1",
+        "packaging==23.1",
+        "mergedeep==1.3.4",
+        "ghp_import==2.1.0",
+        "click==8.1.5",
+        "setuptools==68.0.0",
+        "importlib_metadata==6.8.0",
+        "markupsafe==2.1.3",
+        "requests==2.31.0",
+        "pymdown_extensions==10.1",
+        "pygments==2.15.1",
+        "mkdocs==1.4.3",
+        "mkdocs_material_extensions==1.1.1",
+        "markdown==3.3.7",
+        "jinja2==3.1.2",
+        "mkdocs_material==8.5.11"
+    ]
+}

@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/tsam#2.2.2#3.8.2.txt
+solve time:0.0035424232482910156

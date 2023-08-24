@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/apache-airflow-backport-providers-apache-hive#2021.3.3#3.8.2.txt
+solve time:0.016208648681640625

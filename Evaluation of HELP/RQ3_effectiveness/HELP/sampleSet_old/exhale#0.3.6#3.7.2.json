@@ -1,0 +1,40 @@
+{
+    "pro#ver": "exhale#0.3.6",
+    "Sym": "3.7.2",
+    "error_fix": [
+        "docutils==0.17",
+        "Sphinx==4.0.3"
+    ],
+    "full_install": [
+        "pyparsing==3.0.0",
+        "chardet==3.0.2",
+        "certifi==2020.12.5",
+        "urllib3==1.25.2",
+        "idna==2.5",
+        "pytz==2020.4",
+        "MarkupSafe==2.0.0a1",
+        "soupsieve==1.9.6",
+        "setuptools==65.2.0",
+        "packaging==20.4",
+        "requests==2.22.0",
+        "imagesize==0.5.0",
+        "alabaster==0.7.3",
+        "babel==2.7.0",
+        "snowballstemmer==1.1.0",
+        "Pygments==2.7.4",
+        "Jinja2==3.0.0",
+        "sphinxcontrib-qthelp==1.0.0",
+        "sphinxcontrib-serializinghtml==1.0.0",
+        "sphinxcontrib-htmlhelp==1.0.0",
+        "sphinxcontrib-jsmath==1.0.0",
+        "sphinxcontrib-devhelp==1.0.0",
+        "sphinxcontrib-applehelp==1.0.0",
+        "six==1.7.3",
+        "lxml==4.6.1",
+        "beautifulsoup4==4.8.0",
+        "breathe==4.32.0",
+        "Sphinx==4.0.3",
+        "docutils==0.17",
+        "exhale==0.3.6"
+    ]
+}

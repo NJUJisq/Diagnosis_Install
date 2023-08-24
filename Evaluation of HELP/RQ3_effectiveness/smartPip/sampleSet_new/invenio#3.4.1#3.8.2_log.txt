@@ -1,0 +1,1774 @@
+127.0.0.1:8888 server is started
+Traceback (most recent call last):
+  File "/home/cyl/.conda/envs/test8/bin/smartPip", line 33, in <module>
+    sys.exit(load_entry_point('smartPip==0.0.1', 'console_scripts', 'smartPip')())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/smartPip.py", line 534, in main
+    analysis_from_req(req_file)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/smartPip.py", line 421, in analysis_from_req
+    handle_dependency(requirements, package_info)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/smartPip.py", line 346, in handle_dependency
+    constraint_solving(requirement_normalize_list, s, dependency_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 53 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 314, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 21 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  [Previous line repeated 1 more time]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  [Previous line repeated 1 more time]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  [Previous line repeated 1 more time]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  [Previous line repeated 1 more time]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 3 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 3 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 4 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 3 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  [Previous line repeated 2 more times]
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 355, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 365, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 338, in constraint_solving
+    constraint_solving(namelist, s, dep_tree, dep_flag, flag=flag_list.pop())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 343, in constraint_solving
+    if con_add(dep_list[i], s):
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/smartPip-0.0.1-py3.8.egg/deptree/solver_local.py", line 174, in con_add
+    temp.append(x >= cmp_label)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3.py", line 2661, in __ge__
+    a, b = _coerce_exprs(self, other)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3.py", line 1219, in _coerce_exprs
+    b = s.cast(b)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3.py", line 2356, in cast
+    return IntVal(val, self.ctx)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3.py", line 3197, in IntVal
+    return IntNumRef(Z3_mk_numeral(ctx.ref(), _to_int_str(val), IntSort(ctx).ast), ctx)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3.py", line 3152, in IntSort
+    return ArithSortRef(Z3_mk_int_sort(ctx.ref()), ctx)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3.py", line 348, in __init__
+    Z3_inc_ref(self.ctx.ref(), self.as_ast())
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3.py", line 563, in as_ast
+    return Z3_sort_to_ast(self.ctx_ref(), self.ast)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3core.py", line 2738, in Z3_sort_to_ast
+    _elems.Check(a0)
+  File "/home/cyl/.conda/envs/test8/lib/python3.8/site-packages/z3_solver-4.12.1.0-py3.8-linux-x86_64.egg/z3/z3core.py", line 1480, in Check
+    err = self.get_error_code(ctx)
+ctypes.ArgumentError: argument 1: <class 'RecursionError'>: maximum recursion depth exceeded

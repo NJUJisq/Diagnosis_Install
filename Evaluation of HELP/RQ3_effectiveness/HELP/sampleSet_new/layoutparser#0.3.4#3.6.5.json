@@ -1,0 +1,23 @@
+{
+    "pro#ver": "layoutparser#0.3.4",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54"
+    ],
+    "full_install": [
+        "layoutparser==0.3.4",
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54",
+        "scipy==1.5.4",
+        "pandas==1.1.5",
+        "pillow==8.4.0",
+        "pyyaml==6.0",
+        "iopath==0.1.10",
+        "pdfplumber==0.6.0",
+        "pdf2image==1.16.3",
+        "python_dateutil==2.8.2",
+        "pytz==2023.3",
+        "six==1.16.0"
+    ]
+}

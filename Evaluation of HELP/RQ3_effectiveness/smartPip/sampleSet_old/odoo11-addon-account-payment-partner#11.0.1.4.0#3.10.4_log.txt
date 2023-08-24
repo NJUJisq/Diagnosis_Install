@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/odoo11-addon-account-payment-partner#11.0.1.4.0#3.10.4.txt
+solve time:0.009623527526855469

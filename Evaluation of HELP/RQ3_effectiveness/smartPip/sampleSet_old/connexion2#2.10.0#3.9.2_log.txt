@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/connexion2#2.10.0#3.9.2.txt
+solve time:0.07991147041320801

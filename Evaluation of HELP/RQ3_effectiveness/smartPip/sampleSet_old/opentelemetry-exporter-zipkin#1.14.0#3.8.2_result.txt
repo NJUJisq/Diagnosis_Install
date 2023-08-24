@@ -1,0 +1,1 @@
+opentelemetry-exporter-zipkin==1.7.1

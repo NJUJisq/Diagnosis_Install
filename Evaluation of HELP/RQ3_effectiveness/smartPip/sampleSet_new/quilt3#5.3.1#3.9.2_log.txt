@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/quilt3#5.3.1.txt
+solve time:0.002737760543823242

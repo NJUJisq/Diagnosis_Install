@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/nnabla-converter#1.31.0#3.9.2.txt
+solve time:0.002980947494506836

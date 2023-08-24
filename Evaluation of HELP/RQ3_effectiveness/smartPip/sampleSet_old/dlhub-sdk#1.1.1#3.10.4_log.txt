@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/dlhub-sdk#1.1.1#3.10.4.txt
+solve time:0.011915206909179688

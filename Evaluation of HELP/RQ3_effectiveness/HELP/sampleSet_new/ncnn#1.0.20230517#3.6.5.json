@@ -1,0 +1,22 @@
+{
+    "pro#ver": "ncnn#1.0.20230517",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54"
+    ],
+    "full_install": [
+        "ncnn==1.0.20230517",
+        "numpy==1.19.5",
+        "tqdm==4.64.1",
+        "requests==2.27.1",
+        "portalocker==2.7.0",
+        "opencv_python==4.5.2.54",
+        "importlib_resources==5.4.0",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "idna==3.4",
+        "charset_normalizer==2.0.12",
+        "zipp==3.6.0"
+    ]
+}

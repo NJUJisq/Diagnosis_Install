@@ -1,0 +1,40 @@
+{
+    "pro#ver": "firebase_admin#6.2.0",
+    "Sym": "3.7.2",
+    "error_fix": [
+        "cachecontrol==0.13.1",
+        "google_api_python_client==2.93.0",
+        "requests==2.31.0",
+        "google_auth==2.22.0",
+        "urllib3==1.26.16"
+    ],
+    "full_install": [
+        "firebase_admin==6.2.0",
+        "cachecontrol==0.13.1",
+        "google_api_python_client==2.93.0",
+        "google_cloud_storage==2.10.0",
+        "pyjwt==2.7.0",
+        "requests==2.31.0",
+        "msgpack==1.0.5",
+        "httplib2==0.22.0",
+        "google_auth==2.22.0",
+        "google_auth_httplib2==0.1.0",
+        "google_api_core==2.11.1",
+        "uritemplate==4.1.1",
+        "google_cloud_core==2.3.3",
+        "google_resumable_media==2.5.0",
+        "protobuf==4.23.4",
+        "six==1.16.0",
+        "charset_normalizer==3.2.0",
+        "idna==3.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "pyparsing==3.1.0",
+        "cachetools==5.3.1",
+        "pyasn1_modules==0.3.0",
+        "rsa==4.9",
+        "googleapis_common_protos==1.59.1",
+        "google_crc32c==1.5.0",
+        "pyasn1==0.5.0"
+    ]
+}

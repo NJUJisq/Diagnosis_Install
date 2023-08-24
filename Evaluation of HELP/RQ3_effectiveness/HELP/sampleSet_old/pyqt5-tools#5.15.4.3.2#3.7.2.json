@@ -1,0 +1,20 @@
+{
+    "pro#ver": "pyqt5-tools#5.15.4.3.2",
+    "Sym": "3.7.2",
+    "error_fix": [
+        "click==7.0",
+        "pyqt5-plugins==5.15.4.2.2",
+        "qt5-tools==5.15.2.1.2"
+    ],
+    "full_install": [
+        "qt5-applications==5.15.2.2.2",
+        "qt5-tools==5.15.2.1.2",
+        "PyQt5-Qt5==5.15.2",
+        "PyQt5-sip==12.8.0",
+        "python-dotenv==0.10.5",
+        "pyqt5-plugins==5.15.4.2.2",
+        "pyqt5==5.15.4",
+        "click==7.0",
+        "pyqt5-tools==5.15.4.3.2"
+    ]
+}

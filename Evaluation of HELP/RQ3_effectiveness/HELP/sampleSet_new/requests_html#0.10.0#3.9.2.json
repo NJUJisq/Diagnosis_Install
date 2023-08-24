@@ -1,0 +1,32 @@
+{
+    "pro#ver": "requests_html#0.10.0",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "requests==2.31.0",
+        "pyppeteer==1.0.2",
+        "urllib3==1.26.16"
+    ],
+    "full_install": [
+        "requests_html==0.10.0",
+        "requests==2.31.0",
+        "pyquery==2.0.0",
+        "fake_useragent==1.1.3",
+        "parse==1.19.1",
+        "bs4==0.0.1",
+        "w3lib==2.1.1",
+        "pyppeteer==1.0.2",
+        "charset_normalizer==3.2.0",
+        "idna==3.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "lxml==4.9.3",
+        "cssselect==1.2.0",
+        "importlib_resources==6.0.0",
+        "appdirs==1.4.4",
+        "importlib_metadata==6.8.0",
+        "pyee==8.2.2",
+        "tqdm==4.65.0",
+        "websockets==10.4",
+        "zipp==3.16.2"
+    ]
+}

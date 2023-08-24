@@ -1,0 +1,26 @@
+{
+    "pro#ver": "blueqat#2.0.4",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "numpy==1.25.1",
+        "quimb==1.4.0",
+        "numba==0.53.1"
+    ],
+    "full_install": [
+        "blueqat==2.0.4",
+        "numpy==1.25.1",
+        "scipy==1.11.1",
+        "networkx==3.1",
+        "matplotlib==3.7.2",
+        "autoray==0.6.3",
+        "quimb==1.4.0",
+        "opt_einsum==3.3.0",
+        "numba==0.53.1",
+        "psutil==5.9.5",
+        "cytoolz==0.12.1",
+        "tqdm==4.65.0",
+        "llvmlite==0.36.0",
+        "setuptools==68.0.0",
+        "toolz==0.12.0"
+    ]
+}

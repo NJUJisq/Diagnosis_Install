@@ -1,0 +1,1 @@
+odoo13-addon-partner-firstname==13.0.1.0.2

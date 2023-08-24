@@ -1,0 +1,1 @@
+openmetadata-sqlalchemy-bigquery==1.2.0

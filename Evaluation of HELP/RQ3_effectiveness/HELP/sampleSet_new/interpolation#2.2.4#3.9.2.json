@@ -1,0 +1,18 @@
+{
+    "pro#ver": "interpolation#2.2.4",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "numba==0.57.1",
+        "numpy==1.24.4"
+    ],
+    "full_install": [
+        "interpolation==2.2.4",
+        "numba==0.57.1",
+        "numpy==1.24.4",
+        "packaging==21.3",
+        "scipy==1.11.1",
+        "tempita==0.5.2",
+        "llvmlite==0.40.1",
+        "pyparsing==3.1.0"
+    ]
+}

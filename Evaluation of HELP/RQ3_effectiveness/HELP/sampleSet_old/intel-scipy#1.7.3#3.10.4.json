@@ -1,0 +1,24 @@
+{
+    "pro#ver": "intel-scipy#1.7.3",
+    "Sym": "3.10.4",
+    "error_fix": [
+        "intel-numpy==1.21.4",
+        "mkl==2021.2.0",
+        "tbb4py==2021.3.0",
+        "tbb==2021.3.0"
+    ],
+    "full_install": [
+        "six==1.7.3",
+        "common-cmplr-lic-rt==2021.1.1",
+        "intel-cmplr-lic-rt==2021.3.0",
+        "tbb==2021.3.0",
+        "intel-openmp==2021.3.0",
+        "mkl-service==2.3.0",
+        "tbb4py==2021.3.0",
+        "intel_fortran_rt==2021.3.0",
+        "dpcpp_cpp_rt==2021.2.0",
+        "mkl==2021.2.0",
+        "intel-numpy==1.21.4",
+        "intel-scipy==1.7.3"
+    ]
+}

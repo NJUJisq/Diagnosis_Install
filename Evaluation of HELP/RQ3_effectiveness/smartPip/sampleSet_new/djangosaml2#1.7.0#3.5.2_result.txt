@@ -1,0 +1,1 @@
+djangosaml2==0.50.0

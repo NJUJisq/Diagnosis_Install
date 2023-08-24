@@ -1,0 +1,8 @@
+lxml==4.6.4
+requests==2.26.0
+pycountry==20.7.3
+odoo13-addon-report-xml==13.0.1.0.1
+odoo13-addon-queue-job==13.0.3.10.2.dev2
+odoo13-addon-product-supplierinfo-for-customer==13.0.1.0.1
+odoo13-addon-base-iso3166==13.0.1.0.1.dev3
+odoo13-addon-edi-voxel==13.0.1.0.2

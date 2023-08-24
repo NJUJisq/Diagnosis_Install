@@ -1,0 +1,1 @@
+odoo12-addon-l10n-it-fatturapa==12.0.2.3.0

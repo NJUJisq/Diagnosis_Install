@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/zappa#0.57.0.txt
+solve time:0.015793800354003906

@@ -1,0 +1,18 @@
+{
+    "pro#ver": "adafruit_circuitpython_ina219#3.4.22",
+    "Sym": "3.5.2",
+    "error_fix": [
+        "adafruit_circuitpython_register==1.9.13",
+        "typing_extensions==3.10.0.2"
+    ],
+    "full_install": [
+        "adafruit_circuitpython_ina219==3.4.22",
+        "adafruit_blinka==5.13.1",
+        "adafruit_circuitpython_register==1.9.13",
+        "adafruit_circuitpython_busdevice==5.1.6",
+        "typing_extensions==3.10.0.2",
+        "adafruit_circuitpython_typing==1.7.2",
+        "adafruit_circuitpython_requests==2.0.0",
+        "typing==3.7.4.3"
+    ]
+}

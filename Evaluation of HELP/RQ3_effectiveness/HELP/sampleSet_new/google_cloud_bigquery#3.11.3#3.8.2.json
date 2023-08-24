@@ -1,0 +1,33 @@
+{
+    "pro#ver": "google_cloud_bigquery#3.11.3",
+    "Sym": "3.8.2",
+    "error_fix": [
+        "google_api_core==2.11.1",
+        "requests==2.31.0",
+        "google_auth==2.22.0",
+        "urllib3==1.26.16"
+    ],
+    "full_install": [
+        "google_cloud_bigquery==3.11.3",
+        "google_api_core==2.11.1",
+        "proto_plus==1.22.3",
+        "google_cloud_core==2.3.3",
+        "google_resumable_media==2.5.0",
+        "packaging==23.1",
+        "protobuf==4.23.4",
+        "python_dateutil==2.8.2",
+        "requests==2.31.0",
+        "googleapis_common_protos==1.59.1",
+        "google_auth==2.22.0",
+        "six==1.16.0",
+        "google_crc32c==1.5.0",
+        "charset_normalizer==3.2.0",
+        "idna==3.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "cachetools==5.3.1",
+        "pyasn1_modules==0.3.0",
+        "rsa==4.9",
+        "pyasn1==0.5.0"
+    ]
+}

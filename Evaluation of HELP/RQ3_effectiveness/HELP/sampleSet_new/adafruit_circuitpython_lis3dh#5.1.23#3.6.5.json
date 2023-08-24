@@ -1,0 +1,13 @@
+{
+    "pro#ver": "adafruit_circuitpython_lis3dh#5.1.23",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "adafruit_blinka==6.15.0",
+        "adafruit_circuitpython_busdevice==5.1.6"
+    ],
+    "full_install": [
+        "adafruit_circuitpython_lis3dh==5.1.23",
+        "adafruit_blinka==6.15.0",
+        "adafruit_circuitpython_busdevice==5.1.6"
+    ]
+}

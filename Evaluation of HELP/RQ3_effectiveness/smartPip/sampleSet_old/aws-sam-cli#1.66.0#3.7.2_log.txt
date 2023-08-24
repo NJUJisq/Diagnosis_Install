@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/aws-sam-cli#1.66.0#3.7.2.txt
+solve time:0.003350973129272461

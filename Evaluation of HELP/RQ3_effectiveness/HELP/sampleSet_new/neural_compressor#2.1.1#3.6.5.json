@@ -1,0 +1,40 @@
+{
+    "pro#ver": "neural_compressor#2.1.1",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54"
+    ],
+    "full_install": [
+        "neural_compressor==2.1.1",
+        "numpy==1.19.5",
+        "pyyaml==6.0",
+        "scikit_learn==0.24.2",
+        "schema==0.7.5",
+        "py_cpuinfo==9.0.0",
+        "pandas==1.1.5",
+        "pycocotools==2.0.6",
+        "opencv_python==4.5.2.54",
+        "requests==2.27.1",
+        "psutil==5.9.5",
+        "pillow==8.4.0",
+        "prettytable==2.5.0",
+        "deprecated==1.2.14",
+        "scipy==1.5.4",
+        "joblib==1.1.1",
+        "threadpoolctl==3.1.0",
+        "contextlib2==21.6.0",
+        "python_dateutil==2.8.2",
+        "pytz==2023.3",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "idna==3.4",
+        "charset_normalizer==2.0.12",
+        "wcwidth==0.2.6",
+        "importlib_metadata==4.8.3",
+        "wrapt==1.15.0",
+        "six==1.16.0",
+        "zipp==3.6.0",
+        "typing_extensions==4.1.1"
+    ]
+}

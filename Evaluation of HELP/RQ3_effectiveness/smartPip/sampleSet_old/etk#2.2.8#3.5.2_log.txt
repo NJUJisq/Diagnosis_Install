@@ -1,0 +1,4 @@
+127.0.0.1:8888 server is started
+install.py has been successfully output
+req.txt : experiment/etk#2.2.8#3.5.2.txt
+solve time:0.8836824893951416

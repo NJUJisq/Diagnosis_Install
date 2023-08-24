@@ -1,0 +1,38 @@
+{
+    "pro#ver": "ai2thor#5.0.0",
+    "Sym": "3.6.5",
+    "error_fix": [
+        "numpy==1.19.5",
+        "opencv_python==4.5.2.54"
+    ],
+    "full_install": [
+        "ai2thor==5.0.0",
+        "flask==2.0.3",
+        "numpy==1.19.5",
+        "pyyaml==6.0",
+        "requests==2.27.1",
+        "progressbar2==3.55.0",
+        "botocore==1.26.10",
+        "aws_requests_auth==0.4.3",
+        "msgpack==1.0.5",
+        "pillow==8.4.0",
+        "python_xlib==0.33",
+        "opencv_python==4.5.2.54",
+        "werkzeug==2.0.3",
+        "jinja2==3.0.3",
+        "itsdangerous==2.0.1",
+        "click==8.0.4",
+        "urllib3==1.26.16",
+        "certifi==2023.5.7",
+        "idna==3.4",
+        "charset_normalizer==2.0.12",
+        "python_dateutil==2.8.2",
+        "jmespath==0.10.0",
+        "six==1.16.0",
+        "dataclasses==0.8",
+        "markupsafe==2.0.1",
+        "importlib_metadata==4.8.3",
+        "zipp==3.6.0",
+        "typing_extensions==4.1.1"
+    ]
+}

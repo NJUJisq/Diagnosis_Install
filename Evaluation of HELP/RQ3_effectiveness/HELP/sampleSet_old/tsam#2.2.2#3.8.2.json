@@ -1,0 +1,25 @@
+{
+    "pro#ver": "tsam#2.2.2",
+    "Sym": "3.8.2",
+    "error_fix": [],
+    "full_install": [
+        "six==1.16.0",
+        "decorator==5.1.1",
+        "matplotlib==3.7.2",
+        "ply==3.11",
+        "tzdata==2023.3",
+        "pytz==2023.3",
+        "python_dateutil==2.8.2",
+        "threadpoolctl==3.2.0",
+        "joblib==1.3.1",
+        "scipy==1.10.1",
+        "highspy==1.5.3",
+        "tqdm==4.65.0",
+        "networkx==3.1",
+        "pyomo==6.6.1",
+        "numpy==1.24.4",
+        "pandas==2.0.3",
+        "scikit_learn==1.3.0",
+        "tsam==2.2.2"
+    ]
+}

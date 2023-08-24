@@ -1,0 +1,22 @@
+{
+    "pro#ver": "pypulseq#1.4.0",
+    "Sym": "3.9.2",
+    "error_fix": [
+        "numpy==1.25.1",
+        "sigpy==0.1.23",
+        "numba==0.53.1"
+    ],
+    "full_install": [
+        "pypulseq==1.4.0",
+        "coverage==7.2.7",
+        "matplotlib==3.7.2",
+        "numpy==1.25.1",
+        "scipy==1.11.1",
+        "sigpy==0.1.23",
+        "pywavelets==1.4.1",
+        "numba==0.53.1",
+        "tqdm==4.65.0",
+        "llvmlite==0.36.0",
+        "setuptools==68.0.0"
+    ]
+}
