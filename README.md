@@ -4,7 +4,7 @@ This repository stores the source code of HELP and the materials in this study
 
 ## Materials
 The following sections describe the main materials included in this repository.    
-[HELP](https://github.com/NJUJisq/Diagnosis_Install/tree/master/HELP). This folder stores the source code of HELP. 
+[HELP](https://github.com/NJUJisq/Diagnosis_Install/tree/master/HELP). This folder stores the source code of HELP. Our constructed knowledge base is on the "HELP/data" folder.
 
 [Data](https://github.com/NJUJisq/Diagnosis_Install/tree/master/Data). This folder stores the data used in the study of Python version compatibility in Python libraries. 
 
