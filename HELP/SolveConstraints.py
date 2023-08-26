@@ -150,7 +150,7 @@ class conflictNode(object):
                 if version_1_norm > version_2_norm:
                     if version_1_norm.compare_releases(version_1_norm._mmp(),version_2_norm._mmp()) == 'equal' and version_2_norm._mmp() != version_1_norm._mmp():   
                         if (version_2_norm.post == None and version_1_norm.post) or (version_2_norm.post and version_1_norm.post == None):
-                            print('filter post', version_1_norm)
+                            # print('filter post', version_1_norm)
                             return False 
 
                 if version_1_norm < version_2_norm:   

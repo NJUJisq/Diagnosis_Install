@@ -1,1 +1,4 @@
 alpaca_trade_api#3.0.2#3.7.2
+2captcha_python#1.2.1#3.8.4
+adafruit_circuitpython_pixelbuf#2.0.2#3.9
+adafruit_circuitpython_framebuf#1.6.3#3.3

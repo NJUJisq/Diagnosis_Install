@@ -1,4 +1,3 @@
-from __future__ import print_function
 import sys
 import re
 
@@ -118,10 +117,7 @@ def remove_invalid(ver):
                 break 
         
         clean_ver.append(clean_chs)    
-    clean_ver = '.'.join(clean_ver)
-
-    print(ver,clean_ver)
-    
+    clean_ver = '.'.join(clean_ver)    
     return clean_ver
 
 class Version(_Comparable):

@@ -1,7 +1,7 @@
 
 import functools
-from create_csv_local import get_pkgver_by_pkg,get_deps_by_pkgver,get_pyvers_by_pkgver,get_pkg_label
-from utils.sort_version import cmp_version_reverse
+from get_data import get_pkgver_by_pkg,get_deps_by_pkgver,get_pyvers_by_pkgver,get_pkg_label
+from utils.sort_version import cmp_version_reverse,py_install_versions
 
 
 
@@ -17,7 +17,7 @@ class systemconflictException(Exception):  #incompatibility
     def __str__(self):
         return str(self.msg)
 
-from create_csv_local import isvalid_req
+from get_data import isvalid_req
 
 from SolveConstraints import conflictNode
 from utils.version import Version
@@ -36,7 +36,6 @@ def run_one_detection(client,Sym,installed=None):
     install_orders = [client]
     installed[client.split('#')[0]] = client
     
-    # 判断这两个其实是一个？
     Final_deps = {}
     best_deps = {}
     install_system_constraints= {}
@@ -106,7 +105,7 @@ def run_one_detection(client,Sym,installed=None):
                     order_label += 1
                 
                 
-                for ver in vers: #info也即key，pkg#ver
+                for ver in vers: 
                     pv_info = dep+'#'+ver
                     
                     if pv_info not in cache_LC:                            
@@ -159,26 +158,22 @@ def run_one_detection(client,Sym,installed=None):
                             install_system_constraints['VC_2'] = {'name':dep,'install_v':'Unknown','upper':client_pkgver.split('#')[0]}
                             temp = ConflictCase('level({})'.format(level),'DependencyConflict',client.split('#')[0],client.split('#')[1],dep,Sym)
                             temp.parse_chain(install_system_constraints,dep)
-                            print('level({}) dependency constraint conflict for {} {} in python {}'.format(level,dep,installed[dep],Sym))
-                            
-
+                            print('detect error: level({}) dependency conflict for {} {} in python {}'.format(level,dep,installed[dep],Sym))
                             return temp,install_system_constraints,installed
-                            
-                            
-                            
+   
                 else:
                     
                     if best_deps[dep]:  
                         installed[dep] = best_deps[dep]
                         install_new.append(best_deps[dep])
                 
-                    else: #没找到
+                    else: 
                         from conflictcase_parse import ConflictCase
                         install_system_constraints[dep] = {'name':dep,'install_v':'Unknown','upper':client_pkgver.split('#')[0]}
                         temp = ConflictCase('level({})'.format(level),'CanNotFind',client.split('#')[0],client.split('#')[1],dep,Sym)
                         temp.parse_chain(install_system_constraints,dep)
                         
-                        print('level({}) cannot find a version for {} in python {}'.format(level,dep,Sym))
+                        print('detect error: level({}) cannot find a version for {} in python {}'.format(level,dep,Sym))
                         return temp,install_system_constraints,installed
 
                         
@@ -192,7 +187,7 @@ def run_one_detection(client,Sym,installed=None):
         install_orders = install_new.copy()
         level += 1
         
-    print('successfully install {}=={} in Python=={}'.format(client[0],client[1],Sym))
+    print('{}=={} can be successfully installed in Python=={}'.format(client.split('#')[0],client.split('#')[1],Sym))
         
  
 
@@ -202,7 +197,7 @@ cache_Interpreter = {}
 cache_Platform = {}
 cache_nographs = []
 
-Empirical_install_versions = ['3.10.4','3.9.2','3.8.2','3.7.2','3.6.5','3.5.2','3.4.4','3.3.5','2.7.2']  #
+Empirical_install_versions =  py_install_versions
 
 
 

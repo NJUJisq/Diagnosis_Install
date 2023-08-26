@@ -1,6 +1,6 @@
 
 from SolveConstraints import conflictNode
-from utils.sort_version import cmp_version_reverse
+from utils.sort_version import cmp_version_reverse,py_install_versions
 import gzip
 import os
 import json
@@ -137,7 +137,6 @@ def get_pyvers_by_pkgver(pkgver,python_all_versions):
 
 def remove_unstable(vers):
     
-    
     new_vers = set()
     for ver_ in vers:
         stable = 1
@@ -202,7 +201,6 @@ def isvalid_req(pkg,req,sym):
     return True,remove_cons
 
 cache_solves = {}  
-
 cache_flags = {}
 def get_package_deps(pkgvers):
     pkg_dict = dict()    
@@ -234,7 +232,6 @@ def get_package_deps(pkgvers):
             sym = list(pkgvers[pkg])[0]
             continue
 
-
         if ver == 'False':
             continue
         
@@ -242,17 +239,12 @@ def get_package_deps(pkgvers):
             related = get_deps_by_pkgver(get_pkg_label(pkg+'#'+ver))  
         except KeyError:
             continue
-        
 
-        for dep_pkgver in related:
-          
-           
+        for dep_pkgver in related: 
             flag_valid ,remove_cons= isvalid_req(pkg+'#'+ver,dep_pkgver,sym)
-            if flag_valid == False:
-                
+            if flag_valid == False:    
                 continue
-            
-            
+                        
             dep_cons = related[dep_pkgver]
             if len(remove_cons) > 0:
                 for r_con in remove_cons:
@@ -261,9 +253,6 @@ def get_package_deps(pkgvers):
                 
             dep_cons = dep_cons.strip().strip(',')
 
-            
-            
-            
             no_cons_flag = False
             if dep_pkgver + dep_cons+sym in cache_solves:
                 compatible_versions = cache_solves[dep_pkgver + dep_cons+sym]  
@@ -275,13 +264,13 @@ def get_package_deps(pkgvers):
             
                 if len(temp_vers) == len(dep_all_version):
                     no_cons_flag = True
-                    # queue.put(dep_pkgver+'#True')   #随便选一个版本
+                    # queue.put(dep_pkgver+'#True')  
                     # continue
                 
                 cache_flags[dep_pkgver + dep_cons+sym] = no_cons_flag
                 compatible_versions = []
                 for temp_v in temp_vers:
-                    pyvers_cons = get_pyvers_by_pkgver(dep_pkgver+'#'+temp_v,['3.10.4','3.9.2','3.8.2','3.7.2','3.6.5','3.5.2','3.4.4','3.3.5','2.7.2'])
+                    pyvers_cons = get_pyvers_by_pkgver(dep_pkgver+'#'+temp_v,py_install_versions)
                     if sym not in pyvers_cons:
                         continue
                     compatible_versions.append(temp_v)
