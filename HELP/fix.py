@@ -242,14 +242,12 @@ def main():
     tmp = sys.argv[1]
     to_file = None
     if len(sys.argv) == 3:
-        to_file = sys.argv[0]
+        to_file = sys.argv[2]
 
     tmp = tmp.split('#')
-    library = (norm(tmp[0]),normal_py(tmp[1]))
+    library = (norm(tmp[0]),tmp[1])
 
-    Sym = tmp[2]
-    
-    print('#'.join(library)+'#'+Sym)
+    Sym = normal_py(tmp[2])    
     run_one(library,Sym,to_file)
     
     
