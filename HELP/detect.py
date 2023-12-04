@@ -159,7 +159,7 @@ def run_one_detection(client,Sym,installed=None):
                             temp = ConflictCase('level({})'.format(level),'DependencyConflict',client.split('#')[0],client.split('#')[1],dep,Sym)
                             temp.parse_chain(install_system_constraints,dep)
                             print('detect error: level({}) dependency conflict for {} {} in python {}'.format(level,dep,installed[dep],Sym))
-                            return temp,install_system_constraints,installed
+                            return temp,install_system_constraints,dep
    
                 else:
                     
@@ -174,7 +174,7 @@ def run_one_detection(client,Sym,installed=None):
                         temp.parse_chain(install_system_constraints,dep)
                         
                         print('detect error: level({}) cannot find a version for {} in python {}'.format(level,dep,Sym))
-                        return temp,install_system_constraints,installed
+                        return temp,install_system_constraints,dep
 
                         
 

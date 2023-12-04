@@ -161,7 +161,7 @@ def run_one(library,Sym,to_file=None):
     st = time.time()
     return_info = run_one_detection(library[0]+'#'+library[1],Sym,installed={})
     if return_info:
-        temp_info,install_system_constraints,installed = return_info
+        temp_info,install_system_constraints,error_dep = return_info
         if temp_info.occur_level == 'level(1)' and temp_info.occur_type == 'CanNotFind':          # Incompatibility
             print('Install incompatibility in Python version=='+Sym)
             need_fix = False
@@ -195,7 +195,7 @@ def run_one(library,Sym,to_file=None):
         fix_record = {}
         fix_record['pro#ver'] = library[0]+'#'+library[1]
         fix_record['Sym'] = Sym 
-        fix_record['error'] = '('+temp_info.occur_type +')'+ error_nodes[-1]
+        fix_record['error'] = '('+temp_info.occur_type +')'+ error_dep
         fix_record['error_fix'] = []
         fix_record['full_install'] = []
         for dep_order in reversed(error_nodes):  
